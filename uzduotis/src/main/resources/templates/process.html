@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	<meta charset="ISO-8859-1">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		
+		 <form th:action="@{/process}" method="post" th:object="${card}">
+			Name: <input type="text" th:field="*{holder}"/>
+			Pan: <input type="text" th:field="*{pan}"/>
+			Exp.Month:  <input type="text" th:field="*{expMonth}"/>
+			Exp.Year:  <input type="text" th:field="*{expYear}"/>
+			CVV: <input type="text" th:field="*{cvc}"/>
+			 <input type="submit"/>
+		 </form>
+	</body>
+</html>

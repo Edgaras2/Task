@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	<meta charset="ISO-8859-1">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<div>
+		Shopping cart
+		<br>
+		Total Amount : <p th:text="${price}"> </p>
+		
+		</div>
+		<a th:href="'/process' ">
+			<button type="button">Pay</button>
+		</a>
+	</body>
+</html>

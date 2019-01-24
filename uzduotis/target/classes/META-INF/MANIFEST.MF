@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Ed
+Build-Jdk: 10.0.2
+Implementation-Title: uzduotis
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: uzduotis
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/uzduotis
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	<meta charset="ISO-8859-1">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<div>
+		Product : <p th:text="${product.price}"> </p>
+		
+		</div>
+		<a th:href="'/buyProduct/' + ${product.price}">
+			<button type="button">Buy</button>
+		</a>
+	</body>
+</html>
